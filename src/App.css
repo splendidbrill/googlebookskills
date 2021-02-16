@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;200&display=swap');
+body {
+  overflow-x: hidden;
+}
+
+
+.main-image {
+  background: url('books.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.glassmain {
+  position: relative;
+  width: 1300px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.041);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+.glassmain .text_header{
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 20px;
+}
+
+.filter:after {
+  background-color: rgba(0, 0, 0, 0.246);
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.card-title {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
